@@ -1,0 +1,9 @@
+$# Nexss Programmer PRO 2.1.0 Example - Install DLang from online pack.
+
+$# --appName=dmd.2.090.0.windows --bin=dmd2\windows\bin
+
+System/Env/Get NEXSS_APPS_PATH --nxsRenameFrom=NEXSS_APPS_PATH --nxsRenameTo=destinationFolder
+Download http://downloads.dlang.org/releases/2.x/2.090.0/dmd.2.090.0.windows.7z
+FS/Unpack --nxsConcat=nxsOut,bin --nxsJoin=PATH --nxsConcatAs=EnvPathAdd
+System/Env/EnsurePath
+
