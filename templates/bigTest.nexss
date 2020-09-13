@@ -1,0 +1,31 @@
+// default.nexss
+$# --helloFromNexss=${nexss}
+
+Id --nxsAs='XA'
+Id --nxsAs='XB'
+Id --nxsAs='XC'
+Id --nxsAs='XD'
+Id --nxsAs='XE'
+Id --nxsAs='XF'
+
+$# --Another --Value=555555
+
+Id --nxsAs='XAD'
+Id --nxsAs='XBE'
+Id --nxsAs='XCF'
+Id --nxsAs='XDG'
+Id --nxsAs='XED'
+Id --nxsAs='XF$'
+
+Id --nxsAs='XDG1'
+Id --nxsAs='XED2'
+Id --nxsAs='XF$3'
+Id --nxsAs='XDG4'
+Id --nxsAs='XED5'
+Id --nxsAs='XF$6'
+Id --nxsAs='XDG7'
+
+$# --Another --Value=555555
+
+nexss Output/End "my text 1\nmytext 2" "some other text next line" "next line"
+nexss Output/End "Another ennnnnnnnnnnnnnnnd"
