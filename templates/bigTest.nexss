@@ -26,6 +26,3 @@ Id --nxsAs='XF$6'
 Id --nxsAs='XDG7'
 
 $# --Another --Value=555555
-
-nexss Output/End "my text 1\nmytext 2" "some other text next line" "next line"
-nexss Output/End "Another ennnnnnnnnnnnnnnnd"
