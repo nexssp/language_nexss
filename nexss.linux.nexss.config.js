@@ -19,8 +19,8 @@ languageConfig.compilers = {
 };
 
 // Nexss is installed automatically with Nexss Programmer
-const dist = require(`${process.env.NEXSS_SRC_PATH}/lib/osys`).dist;
-const distName = dist();
+
+const distName = process.distro;
 languageConfig.dist = distName;
 
 languageConfig.errors = require("./nexss.nexss.errors");
