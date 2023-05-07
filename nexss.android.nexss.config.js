@@ -1,4 +1,4 @@
-let languageConfig = Object.assign({}, require(`../config.linux`));
+let languageConfig = Object.assign({}, require(`../config.android`));
 languageConfig.title = "Nexss";
 languageConfig.description =
   "Nexss is an innovative and evolutionary tool for the programmers.";
